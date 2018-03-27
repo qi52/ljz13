@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>三角形</title>
+</head>
+<script>
+	document.write("<center>");
+	var a1=prompt("请输入行数","");
+	if(a1>5){
+		for(var i=0;i<a1;i++){
+			for(var j=0;j<=i;j++){
+				document.write("#"+" ");
+				}
+			document.write("<br />");
+				}
+		document.write("</center>");
+			}
+	else{
+		for(var t=a1;t>0;t--){
+			for(var k=0;k<t;k++){
+				document.write("#"+" ");
+				}
+			document.write("<br />");
+				}
+		for(var i=0;i<a1;i++){
+			for(var j=0;j<=i;j++){
+				document.write("#"+" ");
+				}
+			document.write("<br />");
+				}
+		document.write("</center>");
+	   }
+</script>
+<body>
+</body>
+</html>
